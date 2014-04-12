@@ -79,10 +79,15 @@ section, .recent-work, .recent-writing, .my-services, footer.contain {
 }
 
 section.handshake {
-	padding-bottom: 80px;
+	padding-bottom: 40px;
 }
 
 .more-about-me {
+	display: none;
+	max-width: 480px;
+	margin: 0 auto;
+	margin-top: 40px;
+	color: #EFECE7;
 }
 
 .recent-work {
@@ -138,7 +143,7 @@ a:link, a:visited, a:hover, a:active {
 	color: #EFECE7;
 }
 
-a:hover, a:active {
+a:hover, a:active, .expand:hover {
 	border-bottom: 1px #EFECE7 solid;
 }
 
@@ -247,7 +252,7 @@ header ul li {
 
 h2 {
 	font-size: 36px;
-	line-height: 115%;
+	line-height: 120%;
 }
     
 }
@@ -292,7 +297,7 @@ h2 {
 /*type*/
 
 h2 {
-	width: 80%;
+	width: 75%;
 }
 
 }
