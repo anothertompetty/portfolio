@@ -1,0 +1,184 @@
+/* 
+Author: Tom Petty
+anothertompetty.com
+Copyright 2014
+*/
+
+/* reset */
+
+body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, fieldset, blockquote {
+	margin: 0; padding: 0; border: 0;
+}
+
+/* base/master */
+
+*, *:before, *:after {
+	-webkit-box-sizing: border-box; 
+ 	   -moz-box-sizing: border-box; 
+	        box-sizing: border-box;
+}
+
+body
+{
+	font-family: "museo-sans-1", "museo-sans-2", helvetica, arial, sans-serif;
+	font-style: normal;
+	font-weight: 100;
+	font-size: 18px;
+	line-height: 150%;
+	text-align: center;
+	color: #000;
+	-webkit-font-smoothing: antialiased;    
+}
+
+ul {
+	list-style: none;
+}
+
+img {
+	max-width: 100%;
+	height: auto !important;
+}
+
+img a
+{
+	text-decoration: none;
+}
+
+/*layout styles*/
+
+.contain {
+	position: relative;
+	width: 90%;
+	margin: 0 auto;
+	padding: 0px 20px;
+}
+
+header {
+	padding: 20px 0px;
+}
+
+header ul {
+	text-align: center;
+	width: 100%;
+	padding-bottom: 20px;	
+}
+
+header ul li {
+	padding-top: 20px;
+}
+
+section, .recent-work, .recent-writing {
+	position: relative;
+	padding: 20px 0px;
+}
+
+.recent-work {
+	border-bottom: 1px #000 solid;
+}
+
+.recent-work img {
+	margin-bottom: 12px;
+}
+
+
+/*helpers*/
+
+.push-down {
+	margin-bottom: 20px;
+}
+
+/*palette*/
+
+.dark {
+	background-color: #000;
+}
+
+/*type*/
+
+h1 {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+
+h2 {
+	color: #fff;
+	font-weight: 100;
+	font-size: 24px;
+	line-height: 125%;
+}
+
+h3 {
+	margin-bottom: 20px;
+}
+
+a:link, a:visited, a:hover, a:active {
+	text-decoration: none;
+	color: #fff;
+}
+
+/*non-mobile styles*/
+
+/*620 up*/
+@media only screen and (min-width:620px) {
+
+.contain {
+	width: 620px;
+}
+
+header ul {
+	position: absolute;
+	display: inline-block;
+	background-color: transparent;
+	margin-right: 20px;
+	left: auto;
+	right: 0px;
+	z-index: 10;
+	width: auto;
+}
+
+header ul li {
+	padding: 0;
+	margin-left: 20px;
+	float: left;
+}
+
+/*type*/
+
+h2 {
+	font-size: 36px;
+	line-height: 115%;
+}
+    
+}
+
+/*920 up*/
+ @media screen and (min-width:920px) {
+
+.contain {
+	width: 920px;
+}
+
+.recent-work img {
+	max-width: 280px;
+	margin-right: 15px;
+}
+
+.recent-work img:last-child {
+	margin-right: 0px;
+}
+
+}
+
+/*1220 up*/
+@media only screen and (min-width:1220px) {
+
+.contain {
+	width: 1220px;
+}
+
+.recent-work img {
+	max-width: 380px;
+}
+
+}
