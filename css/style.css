@@ -65,17 +65,20 @@ h1 {
 
 header ul {
 	text-align: center;
-	width: 100%;
-	padding-bottom: 20px;	
+	width: 100%;	
 }
 
 header ul li {
 	padding-top: 20px;
 }
 
+section.handshake {
+	padding-bottom: 80px;
+}
+
 section, .recent-work, .recent-writing, footer.contain {
 	position: relative;
-	padding: 20px 0px;
+	padding: 40px 0px;
 }
 
 .recent-work {
@@ -86,17 +89,20 @@ section, .recent-work, .recent-writing, footer.contain {
 	margin-bottom: 12px;
 }
 
+.selected-clients img {
+	max-width: 60px;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+
+.selected-clients img:last-child {
+	margin-right: 0px;
+}
 
 /*helpers*/
 
 .push-down {
 	margin-bottom: 20px;
-}
-
-/*palette*/
-
-.dark {
-	background-color: #000;
 }
 
 /*type*/
@@ -106,6 +112,7 @@ h2 {
 	font-weight: 100;
 	font-size: 24px;
 	line-height: 125%;
+	margin-bottom: 20px;
 }
 
 h3 {
@@ -120,6 +127,32 @@ a:link, a:visited, a:hover, a:active {
 
 a:hover, a:active {
 	border-bottom: 1px #fff solid;
+}
+
+.dark-text a:link, .dark-text a:visited, .dark-text a:hover, .dark-text a:active {
+	color: #000;
+}
+
+.dark-text a:hover, .dark-text a:active {
+	border-bottom: 2px #000 solid;
+}
+
+/*palette*/
+
+.dark {
+	background-color: #000;
+}
+
+.dark-text {
+	color: #000;
+}
+
+.light {
+	background-color: #EFECE7;
+}
+
+.light-text {
+	color: #EFECE7;
 }
 
 /*non-mobile styles*/
@@ -157,6 +190,15 @@ header ul li {
 	display: inline-block;
 	padding: 0;
 	margin-left: 20px;
+}
+
+.selected-clients img {
+	max-width: 100%;
+	margin-right: 120px;
+}
+
+.selected-clients img:last-child {
+	margin-right: 0px;
 }
 
 /*type*/
