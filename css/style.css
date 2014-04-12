@@ -57,6 +57,12 @@ header {
 	padding: 20px 0px;
 }
 
+h1 {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+
 header ul {
 	text-align: center;
 	width: 100%;
@@ -67,7 +73,7 @@ header ul li {
 	padding-top: 20px;
 }
 
-section, .recent-work, .recent-writing {
+section, .recent-work, .recent-writing, footer.contain {
 	position: relative;
 	padding: 20px 0px;
 }
@@ -95,12 +101,6 @@ section, .recent-work, .recent-writing {
 
 /*type*/
 
-h1 {
-	color: #fff;
-	text-transform: uppercase;
-	font-size: 18px;
-}
-
 h2 {
 	color: #fff;
 	font-weight: 100;
@@ -114,7 +114,12 @@ h3 {
 
 a:link, a:visited, a:hover, a:active {
 	text-decoration: none;
+	font-weight: 900;
 	color: #fff;
+}
+
+a:hover, a:active {
+	border-bottom: 1px #fff solid;
 }
 
 /*non-mobile styles*/
@@ -126,11 +131,22 @@ a:link, a:visited, a:hover, a:active {
 	width: 620px;
 }
 
+h1 {
+	position: absolute;
+	display: inline-block;
+	left: 20px;
+	right: auto;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+
 header ul {
 	position: absolute;
 	display: inline-block;
 	background-color: transparent;
 	margin-right: 20px;
+	margin-top: -27px;
 	left: auto;
 	right: 0px;
 	z-index: 10;
@@ -138,9 +154,9 @@ header ul {
 }
 
 header ul li {
+	display: inline-block;
 	padding: 0;
 	margin-left: 20px;
-	float: left;
 }
 
 /*type*/
