@@ -67,12 +67,6 @@ header {
 	padding: 20px 0px;
 }
 
-h1 {
-	color: #EFECE7;
-	text-transform: uppercase;
-	font-size: 18px;
-}
-
 header ul {
 	text-align: center;
 	width: 100%;	
@@ -136,6 +130,12 @@ footer {
 
 /*type*/
 
+h1 {
+	color: #EFECE7;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+
 h2 {
 	color: #EFECE7;
 	font-weight: 100;
@@ -147,6 +147,10 @@ h2 {
 h3 {
 	font-size: 18px;
 	margin-bottom: 20px;
+}
+
+.recent-work p {
+	margin-bottom: 40px;
 }
 
 .expand {
@@ -310,10 +314,14 @@ h2 {
 
 /*type*/
 
-h2 {
+h2, .recent-work p {
 	width: 90%;
 	margin: 0 auto;
 	margin-bottom: 20px;
+}
+
+.recent-work p {
+	margin-bottom: 40px;
 }
 
 }
@@ -345,7 +353,7 @@ h2 {
 
 /*type*/
 
-h2 {
+h2, .recent-work p {
 	width: 75%;
 }
 
