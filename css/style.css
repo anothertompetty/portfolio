@@ -122,6 +122,22 @@ footer {
 	font-size: 18px;
 }
 
+/*work page*/
+
+.all-work {
+	margin-top: 60px;
+	width: auto;
+}
+
+.left-big-image, .right-big-image {
+	position: relative;
+	display: inline;
+}
+
+.big-image, .right-small-image {
+	margin-bottom: 12px;
+}
+
 /*helpers*/
 
 .push-down {
@@ -312,6 +328,39 @@ h2 {
 	margin-right: 0px;
 }
 
+/*work*/
+
+.left-big-image, .right-big-image {
+	width: 580px;
+	display: inline;
+}
+
+.left-big-image {
+	margin-right: 20px;
+	float: left;
+}
+
+.right-big-image {
+	float: right;
+	vertical-align: top;
+}
+
+.right-small-image {
+	width: 280px;
+	vertical-align: top;
+	display: inline;
+}
+
+.left-small-image {
+	width: 280px;
+	margin-right: 20px;
+	float: left;
+}
+
+.top {
+	margin-bottom: 20px;
+}
+
 /*type*/
 
 h2, .recent-work p {
@@ -349,6 +398,20 @@ h2, .recent-work p {
 
 .recent-work img, .my-services img {
 	max-width: 380px;
+}
+
+/*work*/
+
+.left-big-image, .right-big-image {
+	width: 780px;
+}
+
+.right-small-image {
+	width: 380px;
+}
+
+.left-small-image {
+	width: 380px;
 }
 
 /*type*/
