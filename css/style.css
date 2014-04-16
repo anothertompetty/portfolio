@@ -124,9 +124,12 @@ footer {
 
 /*work page*/
 
-.all-work {
-	margin-top: 60px;
+.all-work, .all-work-first {
 	width: auto;
+}
+
+.all-work-first {
+	margin-top: 60px;
 }
 
 .left-big-image, .right-big-image {
@@ -134,9 +137,10 @@ footer {
 	display: inline;
 }
 
-.big-image, .right-small-image {
+.left-big-image, .right-small-image, .left-small-image, .left-top {
 	margin-bottom: 12px;
 }
+
 
 /*helpers*/
 
@@ -329,6 +333,10 @@ h2 {
 }
 
 /*work*/
+
+.all-work {
+	margin-top: 8px;
+}
 
 .left-big-image, .right-big-image {
 	width: 580px;
