@@ -85,6 +85,10 @@ header {
 	text-indent: -9999px;
 }
 
+#menu-icon:hover {
+	cursor: pointer;
+}
+
 header ul {
 	display: none;
 	text-align: center;
@@ -307,12 +311,15 @@ h1 {
 	right: auto;
 }
 
+#menu-icon {
+	display: none;
+}
+
 header ul {
 	position: absolute;
 	display: inline-block;
 	background-color: transparent;
 	margin-right: 20px;
-	margin-top: -27px;
 	left: auto;
 	right: 0px;
 	z-index: 10;
