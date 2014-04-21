@@ -149,10 +149,12 @@ footer {
 
 .case-study {
 	margin-top: 60px;
+	padding-left: 0px;
+	padding-right: 0px;
 }
 
 .case-study img {
-	margin: 20px 0px;
+	margin: 5px 0px;
 }
 
 .case-study p {
@@ -316,6 +318,12 @@ header ul li {
 
 .selected-clients img:last-child {
 	margin-right: 0px;
+}
+
+/*work*/
+
+.case-study img {
+	margin: 20px 0px;
 }
 
 /*type*/
