@@ -353,6 +353,10 @@ h2 {
 	margin-right: 15px;
 }
 
+.recent-work a {
+	display: inline-block;
+}
+
 .recent-work a:last-child, .my-services img:last-child {
 	margin-right: 0px;
 }
@@ -429,7 +433,7 @@ h2, .recent-work p {
 	float: left;
 }
 
-.recent-work img, .my-services img {
+.recent-work a, .my-services img {
 	max-width: 380px;
 }
 
