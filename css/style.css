@@ -311,6 +311,10 @@ h1 {
 	right: auto;
 }
 
+header {
+	padding-bottom: 40px;
+}
+
 #menu-icon {
 	display: none;
 }
