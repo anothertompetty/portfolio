@@ -72,6 +72,18 @@ header {
 	top: 0;
 }
 
+.header-dark {
+	background-color: rgba(0,0,0,0.6);
+	-webkit-transition: all .3s;
+	   -moz-transition: all .3s;
+	     -o-transition: all .3s;
+	        transition: all .3s;
+}
+
+.header-dark:hover {
+	background-color: rgba(0,0,0,1);
+}
+
 #menu-icon {
 	position: absolute;
 	display: inline-block;
@@ -231,6 +243,10 @@ a:link, a:visited, a:hover, a:active {
 	text-decoration: none;
 	font-weight: 900;
 	color: #EFECE7;
+	-webkit-transition: all .3s;
+	   -moz-transition: all .3s;
+	     -o-transition: all .3s;
+	        transition: all .3s;
 }
 
 a:hover, a:active, .expand:hover {
