@@ -191,8 +191,19 @@ footer {
 	max-width: 680px;
 	margin: 0 auto;
 	margin-bottom: 5px;
+}
+
+.case-study p.left {
+	max-width: 580px;
+	text-align: left;
+	margin-left: 0px;
 } 
 
+.case-study p.right {
+	max-width: 580px;
+	text-align: left;
+	margin-right: 0px;
+}
 
 /*helpers*/
 
@@ -498,6 +509,14 @@ h2, .recent-work p {
 
 .left-small-image {
 	width: 380px;
+}
+
+.case-study p.left {
+	margin-left: 20px;
+}
+
+.case-study p.right {
+	margin-right: 20px;
 }
 
 /*type*/
