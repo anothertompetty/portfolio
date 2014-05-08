@@ -183,7 +183,7 @@ footer {
 	padding-right: 0px;
 }
 
-.case-study img {
+.case-study img, .video {
 	margin: 5px 0px;
 }
 
@@ -374,7 +374,7 @@ header ul li {
 
 /*work*/
 
-.case-study img {
+.case-study img, .video {
 	margin: 20px 0px;
 }
 
