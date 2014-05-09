@@ -449,10 +449,6 @@ h2 {
 	margin-right: 15px;
 }
 
-.recent-work a {
-	display: inline-block;
-}
-
 .recent-work a:last-child, .my-services img:last-child {
 	margin-right: 0px;
 }
