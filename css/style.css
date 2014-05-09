@@ -211,6 +211,12 @@ footer {
 	margin-bottom: 20px;
 }
 
+.stick-right {
+	position: absolute;
+	left: auto;
+	right: 20px;
+}
+
 /*type*/
 
 h1 {
@@ -270,6 +276,7 @@ a:hover, a:active, .expand:hover {
 
 .dark-text a:link, .dark-text a:visited, .dark-text a:hover, .dark-text a:active {
 	color: #000;
+	border-bottom: 1px #000 solid;
 }
 
 .dark-text a:hover, .dark-text a:active {
