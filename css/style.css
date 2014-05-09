@@ -269,7 +269,22 @@ a:hover, a:active, .expand:hover {
 }
 
 .dark-text a:hover, .dark-text a:active {
-	border-bottom: 2px #000 solid;
+	border-bottom: 1px #000 solid;
+}
+
+a.launch {
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	color: #000;
+	padding: 10px 15px;
+	border: 3px #000 solid;
+}
+
+a.launch:hover {
+	color: #EFECE7;
+	background-color: #000;
+	border: 3px #000 solid;	
 }
 
 /*palette*/
@@ -376,6 +391,11 @@ header ul li {
 
 .case-study img, .video {
 	margin: 20px 0px;
+}
+
+a.launch {
+	width: 33%;
+	margin: 0 auto;
 }
 
 /*type*/
