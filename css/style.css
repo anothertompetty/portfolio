@@ -241,6 +241,10 @@ h3 {
 	margin-bottom: 40px;
 }
 
+.handshake p {
+	font-weight: 300;
+}
+
 .expand {
 	color: #EFECE7;
 	font-weight: 900;
