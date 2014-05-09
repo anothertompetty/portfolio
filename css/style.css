@@ -211,6 +211,10 @@ footer {
 	margin-bottom: 20px;
 }
 
+.push-top {
+	margin-top: 40px;
+}
+
 .stick-right {
 	position: absolute;
 	left: auto;
