@@ -426,12 +426,15 @@ h2 {
 
 .col-1, .col-2, .col-3 {
 	margin-right: 20px;
-	margin-bottom: 0px;
-	text-align: left;
+	text-align: center;
 	position: relative;
 	display: inline;
 	width: 280px;
 	float: left;
+}
+
+.col-1 {
+	margin-left: 20px;
 }
 
 .recent-work a, .my-services img {
@@ -510,11 +513,6 @@ h2, .recent-work p {
 }
 
 .col-1, .col-2, .col-3 {
-	margin-right: 20px;
-	margin-bottom: 0px;
-	text-align: left;
-	position: relative;
-	display: inline;
 	width: 380px;
 	float: left;
 }
