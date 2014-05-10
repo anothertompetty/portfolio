@@ -248,7 +248,7 @@ h3 {
 
 .recent-work p {
 	font-weight: 300;
-	margin-bottom: 40px;
+	margin-bottom: 0px;
 }
 
 .handshake p {
@@ -448,13 +448,17 @@ h2 {
 	margin-left: 20px;
 }
 
-.recent-work a, .my-services img {
+.recent-work img, .my-services img {
 	max-width: 280px;
 	margin-right: 15px;
 }
 
 .recent-work a:last-child, .my-services img:last-child {
 	margin-right: 0px;
+}
+
+img.first-one { /*fix imbalance on WO row*/
+	margin-left: 15px;
 }
 
 /*work*/
@@ -503,7 +507,7 @@ h2, .recent-work p {
 }
 
 .recent-work p {
-	margin-bottom: 40px;
+	margin-bottom: 0px;
 }
 
 }
@@ -524,7 +528,7 @@ h2, .recent-work p {
 	float: left;
 }
 
-.recent-work a, .my-services img {
+.recent-work img, .my-services img {
 	max-width: 380px;
 }
 
