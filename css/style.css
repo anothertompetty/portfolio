@@ -279,7 +279,7 @@ a:link, a:visited, a:hover, a:active {
 	        transition: all .3s;
 }
 
-a:hover, a:active, .header-dark a:hover, .header-dark a:active {
+a:hover, a:active, .header-dark a:hover, .header-dark a:active, .current-page {
 	border-bottom: 1px #EFECE7 solid;
 }
 
