@@ -221,6 +221,12 @@ footer {
 	right: 20px;
 }
 
+.stick-left {
+	position: absolute;
+	left: 20px;
+	right: auto;
+}
+
 /*type*/
 
 h1 {
