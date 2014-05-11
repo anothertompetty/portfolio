@@ -131,11 +131,7 @@ section.handshake {
 	border-bottom: 1px #000 solid;
 }
 
-.recent-work img {
-	margin-bottom: 24px;
-}
-
-.my-services img {
+.recent-work img, .my-services img {
 	margin-bottom: 10px;
 }
 
@@ -261,7 +257,8 @@ h3 {
 
 .recent-work p, {
 	font-weight: 100;
-	margin-bottom: 10px;
+	margin-top: 30px;
+	margin-bottom: 0px;
 }
 
 .handshake p {
@@ -549,7 +546,8 @@ p.content {
 }
 
 .recent-work p {
-	margin-bottom: 0px;
+	margin-top: 30px;
+	margin-bottom: 8px;
 }
 
 }
