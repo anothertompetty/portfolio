@@ -111,7 +111,7 @@ header ul li {
 	padding-top: 20px;
 }
 
-section, .recent-work, .recent-writing, .my-services, footer.contain {
+section, .recent-work, .my-services, footer.contain {
 	position: relative;
 	padding: 40px 0px;
 }
@@ -119,15 +119,6 @@ section, .recent-work, .recent-writing, .my-services, footer.contain {
 section.handshake {
 	padding-bottom: 40px;
 	padding-top: 107px;
-}
-
-.more-about-me {
-	position: relative;
-	display: none;
-	width: 80%;
-	margin: 0 auto;
-	margin-top: 40px;
-	color: #EFECE7;
 }
 
 .col-1, .col-2, .col-3 {
@@ -140,7 +131,11 @@ section.handshake {
 	border-bottom: 1px #000 solid;
 }
 
-.recent-work img, .my-services img {
+.recent-work img {
+	margin-bottom: 30px;
+}
+
+.my-services img {
 	margin-bottom: 10px;
 }
 
@@ -159,6 +154,18 @@ footer {
 }
 
 /*work*/
+
+.recent-work img, .all-work img, .all-work-first img {
+	-webkit-transition: all .3s;
+	   -moz-transition: all .3s;
+	     -o-transition: all .3s;
+	        transition: all .3s;
+}
+
+.recent-work img:hover, .all-work img:hover, .all-work-first img:hover {
+	opacity: 0.66;
+	-moz-opacity: 0.66;
+}
 
 .all-work, .all-work-first {
 	width: auto;
