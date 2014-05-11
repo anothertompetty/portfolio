@@ -317,6 +317,18 @@ a.launch:hover {
 	border: 3px #000 solid;	
 }
 
+.work-link {
+	border-bottom: 1px rgb(254,210,109) solid;
+}
+
+.words-link {
+	border-bottom: 1px rgb(146,219,143) solid;
+}
+
+.profile-link {
+	border-bottom: 1px rgb(251,126,93) solid;
+}
+
 /*palette*/
 
 .dark {
