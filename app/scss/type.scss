@@ -1,0 +1,63 @@
+@import "variables";
+
+// links
+
+a, 
+a:link, 
+a:visited, 
+a:hover, 
+a:active {
+  text-decoration: none;
+  font-weight: 700;
+  color: $color-dark;
+  border-bottom: 2px solid $color-highlight;
+}
+
+a:hover, 
+a:active {
+  background-color: $color-highlight;
+  border-top: 2px solid $color-highlight;
+}
+
+a[rel="external"]::after {
+  content: " \A0\A0\A0\A0";
+  background-image: url(/img/link_after.png);
+  background-size: 10px 10px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 1px;
+}
+
+a[rel="words"]::after {
+  content: " \A0\A0\A0\A0";
+  background-image: url(/img/words.png);
+  background-size: 10px 10px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 3px;
+}
+
+a[rel="work"]::after {
+  content: " \A0\A0\A0\A0";
+  background-image: url(/img/work.png);
+  background-size: 10px 10px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 3px;
+}
+
+
+// lists
+
+.list-title {  
+  font-size: 14px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid $color-dark;
+}
+
+ul,
+li {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}

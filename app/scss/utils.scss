@@ -1,3 +1,7 @@
+@import "variables";
+
+// -----------------------------------------------------------
+
 // LAYOUT
 
 .u-cf {
@@ -48,6 +52,20 @@
 
 // SIZE
 
+.u-margin-Tl {
+  margin-top: $large-space;
+}
+
+.u-margin-Tm {
+  margin-top: $medium-space;
+}
+
+.u-margin-Ts {
+  margin-top: $small-space;
+}
+
+// WIDTH
+
 .u-size-1of3 {
   width: 33.3333%;
 }
@@ -61,9 +79,17 @@
 
 // TYPOGRAPHY
 
-.u-text-body {
-	font-size: 16px;
-	line-height: 24px;
+.u-text-normal {
+	font-weight: 400;
+}
+
+.u-text-heavy {
+  font-weight: 700;
+}
+
+.u-text-small {
+  font-size: 14px;
+  line-height: 24px;
 }
 
 // LINKS
