@@ -1,5 +1,12 @@
 @import "variables";
 
+// -----------------------------------------------------------
+
+html {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
 // links
 
 a, 
@@ -49,10 +56,12 @@ a[rel="work"]::after {
 
 // lists
 
-.list-title {  
+.title {  
   font-size: 14px;
+  font-weight: 400;
   margin-bottom: 10px;
-  border-bottom: 1px solid $color-dark;
+  border-bottom: 1px solid $color-middle;
+  display: inline-block;
 }
 
 ul,

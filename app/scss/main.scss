@@ -10,7 +10,6 @@ body {
   font-weight: 400;
   font-size: 20px;
   line-height: 30px;
-  padding-bottom: $large-space;
   color: $color-dark;
   background-color: $color-light;
   -webkit-background-size: cover;
@@ -23,14 +22,15 @@ body {
 	max-width: 680px;
 	position: relative;
   margin: 0 auto;
-  margin-top: 100px;
+  margin-top: 60px;
+  margin-bottom: 60px;
   padding: 0px 20px; 
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 680px) {
   
   .container {
-    margin-top: 40px;
+    margin-top: 15px;
   }
 
 }

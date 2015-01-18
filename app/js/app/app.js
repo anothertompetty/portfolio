@@ -1,27 +1,33 @@
 $(document).on('ready', function() {
 
-	// hover background bit
+  // link hover turns background to image
+  // hide functionality on mobile devices
+  
+  if ( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) == false ) {
+	
+    var highlight = $('.highlight');
+    var body = $('body');
 
-	var highlight = $('.highlight');
-  var body = $('body');
+    highlight.on('mouseenter', function() {
 
-  highlight.on('mouseenter', function() {
+      var relatedImage = $(this).data('image');
 
-		var relatedImage = $(this).data('image');
-    body.css({
-      'background' : '#EDEDED url(img/' + relatedImage + '.jpg) no-repeat center center fixed',
-      '-webkit-background-size' : 'cover',
-      '-moz-background-size' : 'cover',
-      '-o-background-size' : 'cover',
-      'background-size' : 'cover'
+      body.css({
+        'background' : '#EDEDED url(img/' + relatedImage + '.jpg) no-repeat center center fixed',
+        '-webkit-background-size' : 'cover',
+        '-moz-background-size' : 'cover',
+        '-o-background-size' : 'cover',
+        'background-size' : 'cover'
+      });
+
     });
 
-	});
+    highlight.on('mouseleave', function() {
 
-	highlight.on('mouseleave', function() {
+      body.css('background', '#EDEDED');
 
-		body.css('background', '#EDEDED');
+    });
 
-	});
-	
+  };
+    	
 });

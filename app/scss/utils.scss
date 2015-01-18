@@ -64,7 +64,35 @@
   margin-top: $small-space;
 }
 
+.u-margin-Rl {
+  margin-top: $large-space;
+}
+
+.u-margin-Rm {
+  margin-top: $medium-space;
+}
+
+.u-margin-Rs {
+  margin-top: $small-space;
+}
+
+.u-padding-Rl {
+  padding-top: $large-space;
+}
+
+.u-padding-Rm {
+  padding-top: $medium-space;
+}
+
+.u-padding-Rs {
+  padding-top: $small-space;
+}
+
 // WIDTH
+
+.u-size-1of2 {
+  width: 50%;
+}
 
 .u-size-1of3 {
   width: 33.3333%;
