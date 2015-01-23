@@ -1,10 +1,11 @@
 $(document).on('ready', function() {
 
+
   // link hover turns background to image
   // hide functionality on mobile devices
   
   if ( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) == false ) {
-	
+  
     var highlight = $('.highlight');
     var body = $('body');
 
@@ -27,6 +28,18 @@ $(document).on('ready', function() {
       body.css('background', '#EDEDED');
 
     });
+    
+  // preload images
+
+  preloadImages = function() {
+
+    for ( var i = o; i < arguments.length; i++ ) {
+      $('<img />').attr('src', arguments[i]);
+    }
+
+  }
+
+  preloadImages('img/gocardless.jpg', 'wolff-olins.jpg');
 
   };
     	
