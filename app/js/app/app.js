@@ -1,5 +1,15 @@
 $(document).on('ready', function() {
 
+  // lazy load images
+
+  $('.project img').unveil(0, function() {
+
+    $(this).load(function() {
+      this.style.opacity = 1;
+    });
+    
+  });
+
   // link hover turns background to image
   // hide functionality on mobile devices
   

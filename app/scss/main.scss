@@ -34,3 +34,21 @@ body {
   }
 
 }
+
+.container img {
+  width: 100%;
+}
+
+.project,
+.section {
+  position: relative;
+  margin-bottom: $large-space;
+  padding-bottom: $large-space;
+  border-bottom: 2px solid $color-highlight;
+}
+
+.project img {
+  margin-bottom: $medium-space;
+  opacity: 0;
+  transition: opacity .3s ease-in;
+}
