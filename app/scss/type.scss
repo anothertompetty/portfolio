@@ -27,6 +27,14 @@ a:active {
   border-top: 2px solid $color-highlight;
 }
 
+a.link--plain {
+  text-decoration: none;
+  font-family: 'Akkurat-bold';
+  font-weight: 400;
+  color: $color-dark;
+  border: none;
+}
+
 a[rel="external"]::after {
   content: " \A0\A0\A0\A0";
   background-image: url(/img/link_after.png);
