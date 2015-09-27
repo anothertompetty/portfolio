@@ -24,6 +24,8 @@ a:active {
 }
 
 a.link--heading {
+  text-decoration: none;
+  font-family: $primary-font;
   color: $color-link;
   border: 0px;
 }

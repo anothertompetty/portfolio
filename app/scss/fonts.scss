@@ -2,19 +2,25 @@
   font-family: 'Maison Neue';
   font-style: normal;
   font-weight: 400;
-  src: local('Maison Neue'), url(/app/scss/_MaisonNeue-Book.woff) format('woff');
+  src: local('Maison Neue'), 
+  url(/fonts/Maison-Neue-Book.woff) format('woff');
+  src: url(/fonts/Maison-Neue-Book.ttf) format('truetype');
 }
 
 @font-face {
   font-family: 'Maison Neue';
   font-style: normal;
   font-weight: 600;
-  src: local('Maison Neue'), url(/app/scss/_MaisonNeue-Demi.woff) format('woff');
+  src: local('Maison Neue'), 
+  url(/fonts/Maison-Neue-Demi.woff) format('woff');
+  src: url(/fonts/Maison-Neue-Demi.ttf) format('truetype');
 }
 
 @font-face {
   font-family: 'Maison Neue';
   font-style: normal;
   font-weight: 700;
-  src: local('Maison Neue'), url(/app/scss/_MaisonNeue-Bold.woff) format('woff');
+  src: local('Maison Neue'), 
+  url(/fonts/Maison-Neue-Bold.woff) format('woff');
+  src: url(/fonts/Maison-Neue-Bold.ttf) format('truetype');
 }
