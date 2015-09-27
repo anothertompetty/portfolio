@@ -1,13 +1,20 @@
 @font-face {
-  font-family: 'Akkurat';
+  font-family: 'Maison Neue';
   font-style: normal;
   font-weight: 400;
-  src: local('Akkurat'), url(/app/scss/Akkurat.woff) format('woff');
+  src: local('Maison Neue'), url(/app/scss/_MaisonNeue-Book.woff) format('woff');
 }
 
 @font-face {
-  font-family: 'Akkurat-bold';
+  font-family: 'Maison Neue';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Maison Neue'), url(/app/scss/_MaisonNeue-Demi.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Maison Neue';
   font-style: normal;
   font-weight: 700;
-  src: local('Akkurat-bold'), url(/app/scss/Akkurat-bold.woff) format('woff');
+  src: local('Maison Neue'), url(/app/scss/_MaisonNeue-Bold.woff) format('woff');
 }

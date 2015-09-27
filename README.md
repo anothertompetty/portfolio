@@ -1,4 +1,4 @@
-portfolio
+Portfolio
 =========
 
 Personal site and portfolio
@@ -8,4 +8,4 @@ Personal site and portfolio
 - Compiled and served using Grunt
 - Hosted on GitHub Pages
 
-The typeface is Akkurat
+The typeface is Maison Neue
