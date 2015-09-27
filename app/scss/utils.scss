@@ -1,7 +1,3 @@
-@import "variables";
-
-// -----------------------------------------------------------
-
 // LAYOUT
 
 .u-cf {
@@ -65,18 +61,42 @@
 }
 
 .u-margin-Rl {
-  margin-top: $large-space;
+  margin-right: $large-space;
 }
 
 .u-margin-Rm {
-  margin-top: $medium-space;
+  margin-right: $medium-space;
 }
 
 .u-margin-Rs {
-  margin-top: $small-space;
+  margin-right: $small-space;
 }
 
-.u-padding-Rl {
+.u-margin-Bl {
+  margin-bottom: $large-space;
+}
+
+.u-margin-Bm {
+  margin-bottom: $medium-space;
+}
+
+.u-margin-Bs {
+  margin-bottom: $small-space;
+}
+
+.u-margin-Ll {
+  margin-left: $large-space;
+}
+
+.u-margin-Lm {
+  margin-left: $medium-space;
+}
+
+.u-margin-Ls {
+  margin-left: $small-space;
+}
+
+.u-padding-Tl {
   padding-top: $large-space;
 }
 
