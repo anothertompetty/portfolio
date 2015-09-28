@@ -3,7 +3,6 @@
   src: url('/fonts/MaisonNeue-Book.woff2') format('woff2'),
        url('/fonts/MaisonNeue-Book.woff') format('woff'),
        url('/fonts/MaisonNeue-Book.ttf') format('truetype'),
-       url('/fonts/MaisonNeue-Book.svg#maison_neuebook') format('svg');
 }
 
 @font-face {
@@ -11,13 +10,11 @@
   src: url('/fonts/MaisonNeue-Demi.woff2') format('woff2'),
        url('/fonts/MaisonNeue-Demi.woff') format('woff'),
        url('/fonts/MaisonNeue-Demi.ttf') format('truetype'),
-       url('/fonts/MaisonNeue-Demi.svg#maison_neuedemi') format('svg');
 }
 
 @font-face {
   font-family: 'MaisonNeue-Bold';
-  src: url('/fonts/maison_neue-bold-webfont.woff2') format('woff2'),
+  src: url('/fonts/MaisonNeue-Bold.woff2') format('woff2'),
        url('/fonts/MaisonNeue-Bold.woff') format('woff'),
-       url('/fonts/maison_neue-bold-webfont.ttf') format('truetype'),
-       url('/fonts/maison_neue-bold-webfont.svg#maison_neue_mediumbold') format('svg');
+       url('/fonts/MaisonNeue-Bold.ttf') format('truetype'),
 }
