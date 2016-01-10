@@ -6,6 +6,8 @@
     <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
     <meta name="viewport" content="initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="build/css/app.min.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick-theme.css">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
   </head>
   <body>
@@ -25,19 +27,120 @@
       <div class="project">
 
         <h2 class="title">GoCardless</h2>
-        <p class="u-text-small u-text-heavy">NB: this stuff is still pretty rough, but I wanted to share anyway.</p>
-        <p class="u-text-small">Here's some of my latest UI work for GoCardless. The aim is to make everything a bit less clever, and lot more obvious to users.</p>
-        <p class="u-text-small">First up, overhauling our public-facing payment pages. Our merchants use these to take payments from their customers. The idea is to ask a lot less, use less space, but make it much chunkier and clearer:</p>
+
+        <p class="u-text-small">
+          GoCardless makes recurring payments software for businesses. It started out serving small merchants, and when I joined the product had been built to do just that. However, as the company grew, a new vision evolved: to build the recurring payments network for the internet. With the new vision came a desire to serve bigger, more demanding merchants with vastly different needs. A new, more robust approach was needeed.
+        </p>
+        <p class="u-text-small">
+          If the original product was a great proof of concept, the new one needed to be a truly scalable platform. That meant re-writing the code-base, launching a new API, and creating brand new dashboards and payment pages.
+        </p>
+        <p class="u-text-small">
+          I led the design of the dashboard&thinsp;&mdash;&thinsp;the place where merchants log in and manage their payments, as well as playing a leading role in the product strategy and management (what should we build? Why should we build it? When should we do it?).
+        </p>
+        <img src="img/placeholder.gif" data-src="img/work/gocardless/gc-office.jpg">
+        CAPTION: The GC office
+
+        <p class="u-text-small u-text-heavy">Approach</p>
+        <p class="u-text-small">
+          The goal was to create a new version of GoCardless that would enable large enterprise customers to use the system, without alienating the core userbase of small businesses. It had to work for everyone from vegetable boxes to Box.com.
+        </p>
+        <p class="u-text-small">
+          The problem here is that by trying to design something for everyone, we risked ending up with something for no one. Avoiding an identity crisis by injecting a point of view into the way we designed features became a big focus of mine.
+        </p>
+        <p class="u-text-small">
+          We needed constraints, a target to aim at. This meant a whole load of user research: meeting with potential & existing customers, speaking to our sales & support teams, and looking over the analytics. We identified five key insights to get us started:
+        </p>
+        <ul class="u-text-small u-margin-Bm">
+          <li><span class="u-text-heavy">
+            Easy is everything.</span> ("It just works!")
+          </li>
+          <li><span class="u-text-heavy">
+            Flexibility is missing.</span> ("I can’t change anything on a subscription once it's created")
+          </li>
+          <li><span class="u-text-heavy">
+            Visibility is important.</span> ("What’s going on with my business?")
+          </li>
+          <li><span class="u-text-heavy">
+            Ramping up is hard.</span> ("I love GC, I just wish I could get my customers on it!")
+          </li>
+          <li><span class="u-text-heavy">
+            The paying experience is confusing.</span> ("Who are GoCardless?")
+          </li>
+        </ul>
+        <img src="img/placeholder.gif" data-src="img/work/gocardless/lendable.jpg">
+        CAPTION: Lendable etc.
+        <p class="u-text-small">
+          It also helped us identify our primary users, and create personas based on their behaviours and needs. Here’s a sample:
+        </p>
+        <img src="img/placeholder.gif" data-src="img/work/gocardless/persona.jpg">
+        <p class="u-text-small">
+          So we had insight into our users, but we needed more. We needed something to help guide design decisions, especially when we were at risk of creating one size fits all features. It led us to three design principles:
+        </p>
+        <ul class="u-text-small u-margin-Bm">
+          <li class="u-margin-Bm"><span class="u-text-heavy">
+            Small users over all users.</span><br>
+            Small businesses are the heart of GC, and the primary dashboard users. The features we build, the information we show and the tone we adopt will be for them — we’ll design first and foremost to meet their needs.
+          </li>
+          <li class="u-margin-Bm"><span class="u-text-heavy">
+            Attention over retention.</span><br>
+            We’ll design to prioritise the things that require our users’ immediate attention, the rest can wait. We don’t need them to stick around if everything’s fine — they can get straight back to running their business.
+          </li>
+          <li><span class="u-text-heavy">
+            Hammer over handyman.</span><br>
+            GoCardless is designed to solve one problem really, really well. We could be great at other things, but we’ll design to ensure that we’re the best at recurring payments first, and worry about the rest later.
+          </li>
+        </ul>
+        <p class="u-text-small">
+          Between our personas and our principles we had everything we needed to get started.
+        </p>
+        <p class="u-text-small">
+          For more detail on this approach, I actually gave a talk at Canvas Conference in October 2015, you can view a video of that HERE.
+        </p>
+
+        <p class="u-text-small u-text-heavy">Work</p>
+        <p class="u-text-small">
+          At the time of writing, the dashboard and new product are in beta in France and Germany, and we’re in the final phase of build before launching fully.
+        </p>
+        <div class="carousel">
+          <img src="img/placeholder.gif" data-src="img/work/gocardless/payment-show.jpg">
+          <img src="img/placeholder.gif" data-src="img/work/gocardless/customer-show.jpg">
+          <img src="img/placeholder.gif" data-src="img/work/gocardless/payments-index.jpg">
+        </div>
+
+        <div class="video">
+          <video poster="/uploads/writings/building-the-pencil-page/form.jpg" 
+          controls="controls" tabindex="0" autoplay="autoplay" loop="loop">
+            <source src="img/work/gocardless/create-subscription.mp4" type="video/mp4">
+            <source src="img/work/gocardless/create-subscription.ogv" type="video/ogg">
+            Video tag not supported. Download the video 
+            <a href="img/work/gocardless/create-subscription.mp4">here</a>.
+          </video>
+        </div>
+        <div class="video">
+          <video poster="/uploads/writings/building-the-pencil-page/form.jpg" 
+          controls="controls" tabindex="0" autoplay="autoplay" loop="loop">
+            <source src="img/work/gocardless/highlight-colours.mp4" type="video/mp4">
+            <source src="img/work/gocardless/highlight-colours.ogv" type="video/ogg">
+            Video tag not supported. Download the video 
+            <a href="img/work/gocardless/highlight-colours.mp4">here</a>.
+          </video>
+        </div>
+        <div class="video">
+          <video poster="/uploads/writings/building-the-pencil-page/form.jpg" 
+          controls="controls" tabindex="0" autoplay="autoplay" loop="loop">
+            <source src="img/work/gocardless/sign-up.mp4" type="video/mp4">
+            <source src="img/work/gocardless/sign-up.ogv" type="video/ogg">
+            Video tag not supported. Download the video 
+            <a href="img/work/gocardless/sign-up.mp4">here</a>.
+          </video>
+        </div>
+
         <img src="img/placeholder.gif" data-src="img/work/gocardless/gocardless-payment-page.gif">
-        <p class="u-text-small">Next is the form that merchants use to create subscriptions in our dashboards. I want them to be able to input the smallest amount of information possible, and still set up a payment plan. The form gradually reveals more options as they become relevant.</p>
-        <img src="img/placeholder.gif" data-src="img/work/gocardless/gocardless-plan-create.gif">
-        <p class="u-text-small">Certain options are directly related to the decisions that the user has just made. I want these relationships to be as obvious as possible.</p>
+        
         <img src="img/placeholder.gif" data-src="img/work/gocardless/gocardless-plan-detail.jpg">
-        <p class="u-text-small">It's currently too hard for merchant's to get their customers onto GC, so I'm looking at ways to make that easier.</p>
+
         <img src="img/placeholder.gif" data-src="img/work/gocardless/gocardless-plan-link.jpg">
         <img src="img/placeholder.gif" data-src="img/work/gocardless/gocardless-plan-email.jpg">
-
-        <p class="u-text-small">For a more in-depth story of my work at GoCardless, please <a href="https://medium.com/@tp/69f55d45faeb">click here</a>.</p>
         
       </div>
 
@@ -126,6 +229,7 @@
 
     <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
     <script src="build/js/app.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script>
     <script src="//localhost:35729/livereload.js"></script>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

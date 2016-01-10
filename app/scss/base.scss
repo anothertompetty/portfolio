@@ -23,7 +23,8 @@ body {
   }
 }
 
-.container img {
+.container img,
+.container video {
   width: 100%;
 }
 
@@ -84,4 +85,12 @@ body {
     -ms-filter: blur(2px);
     filter: blur(2px);
   }
+}
+
+.video {
+  margin-bottom: 11px;
+}
+
+.carousel {
+  cursor: ew-resize;
 }
