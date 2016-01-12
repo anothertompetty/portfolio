@@ -1,0 +1,11 @@
+.project,
+.section {
+  position: relative;
+  margin-bottom: $large-space;
+  padding-bottom: $large-space;
+  border-bottom: 2px solid $color-highlight;
+}
+
+.section__top {
+  padding-bottom: $medium-space;
+}

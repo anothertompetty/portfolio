@@ -1,0 +1,20 @@
+.project-fig, 
+.video {
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+.project-fig img { //unveil styles
+  opacity: 0;
+  transition: opacity .3s ease-in;
+}
+
+figcaption {
+  font-size: 12px;
+  line-height: 18px;
+  color: $color-medium;
+}
+
+.caption-carousel {
+  margin-top: -20px;
+}

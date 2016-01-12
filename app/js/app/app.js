@@ -3,14 +3,16 @@ $(document).on('ready', function() {
   // lazy load images
 
   $('.project img').unveil(0, function() {
-
     $(this).load(function() {
       this.style.opacity = 1;
     });
-    
   });
 
+  // carousel plug-in
+
   $('.carousel').slick({
+    autoplay: true,
+    pauseOnHover: true,
     dots: true,
     infinite: true,
     speed: 300,
