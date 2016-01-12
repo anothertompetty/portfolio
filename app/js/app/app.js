@@ -10,14 +10,14 @@ $(document).on('ready', function() {
 
   // carousel plug-in
 
-  $('.carousel').slick({
-    autoplay: true,
-    pauseOnHover: true,
-    dots: true,
-    infinite: true,
-    speed: 300,
-    slidesToShow: 1,
-    adaptiveHeight: true,
+  $(".owl-carousel").owlCarousel({
+    autoPlay: 4000,
+    stopOnHover: true,
+    navigation : true,
+    slideSpeed : 300,
+    pagination: false,
+    paginationSpeed : 400,
+    singleItem:true,
   });
 
   // // link hover turns background to image
