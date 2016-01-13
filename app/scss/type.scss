@@ -72,20 +72,6 @@ p {
   margin-bottom: $medium-space;
 }
 
-.text--large {
-  font-family: $medium-font;
-  font-size: 28px;
-  line-height: 40px;
-  color: $color-highlight;
-}
-
-@media screen and (max-width: 600px) {
-  .text--large {
-    font-size: 22px;
-    line-height: 32px;
-  }
-}
-
 .text--title {
   font-family: $bold-font;
   font-size: 18px;

@@ -137,8 +137,22 @@
 }
 
 .u-text-small {
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.u-text-large {
+  font-family: $medium-font;
+  font-size: 28px;
+  line-height: 40px;
+  color: $color-highlight;
+}
+
+@media screen and (max-width: 600px) {
+  .u-text-large {
+    font-size: 22px;
+    line-height: 32px;
+  }
 }
 
 // LINKS
