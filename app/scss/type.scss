@@ -67,6 +67,13 @@ a[rel="work"]::after {
 
 // Text styles
 
+h1,
+h2 {
+  font-family: $bold-font;
+  // font-style: bold;
+  // font-weight: 700;
+}
+
 p {
   margin: 0px;
   margin-bottom: $medium-space;

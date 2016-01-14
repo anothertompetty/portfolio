@@ -1,5 +1,7 @@
 @font-face {
   font-family: 'MaisonNeue-Book';
+  font-style: normal;
+  font-weight: 400;
   src: url('http://anothertompetty.com/fonts/MaisonNeue-Book.woff2') format('woff2'),
        url('http://anothertompetty.com/fonts/MaisonNeue-Book.woff') format('woff'),
        url('http://anothertompetty.com/fonts/MaisonNeue-Book.ttf') format('truetype'),
@@ -7,6 +9,8 @@
 
 @font-face {
   font-family: 'MaisonNeue-Demi';
+  font-style: medium;
+  font-weight: 600;
   src: url('http://anothertompetty.com/fonts/MaisonNeue-Demi.woff2') format('woff2'),
        url('http://anothertompetty.com/fonts/MaisonNeue-Demi.woff') format('woff'),
        url('http://anothertompetty.com/fonts/MaisonNeue-Demi.ttf') format('truetype'),
@@ -14,6 +18,8 @@
 
 @font-face {
   font-family: 'MaisonNeue-Bold';
+  font-style: bold;
+  font-weight: 700;
   src: url('http://anothertompetty.com/fonts/MaisonNeue-Bold.woff2') format('woff2'),
        url('http://anothertompetty.com/fonts/MaisonNeue-Bold.woff') format('woff'),
        url('http://anothertompetty.com/fonts/MaisonNeue-Bold.ttf') format('truetype'),
