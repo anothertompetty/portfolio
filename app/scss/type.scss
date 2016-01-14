@@ -70,6 +70,10 @@ p {
   margin-bottom: $medium-space;
 }
 
+p.last {
+  margin: 0;
+}
+
 .text--title {
   font-family: $bold-font;
   font-size: 18px;
