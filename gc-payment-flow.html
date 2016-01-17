@@ -16,26 +16,31 @@
       </div>
 
       <div class="project">
-        <h2>GoCardless Payment Pages</h2>
+        <h2>GoCardless payment flow</h2>
 
         <p class="u-text-small">
-         The recurring payments network that GoCardless is building means that, for the first time, anyone can adopt a subscription business model&thinsp;&mdash;&thinsp;previously the domain of online behemoths like Spotify and Netflix.
+         Whilst working on the <a href="/../gc-dashboard.html" target="_blank">dashboard relaunch</a> at GoCardless, it became clear that the customer payment flow was going to need overhauling. This is the form customers use to pay businesses that are using GoCardless. It sees some pretty heavy traffic (STAT HERE), and so it should be as easy to use and accessible as possible.
         </p>
 
         <p class="u-text-small">
-          One December afternoon, <a href="http://almonk.com" target="_blank">Alasdair Monk</a> and I decided to celebrate this. We created Subschristmas, a site full of gifts that keep on giving. It's a selection of small independent businesses (that use GoCardless) offering subscriptions that make amazing gifts. They aren’t your typical ‘pay monthly’ services (gas bills), instead they offer something new, something more creative.
+          The old form was long, and research told us users were finding it arduous — particularly because they had to sign up for an account when making a payment. Removing the sign up requirement became the catalyst that sparked the whole project. On top of this, we were pretty sure we could make the entire flow much clearer, and work a lot harder for users.
+        </p>
+
+        <p class="u-text-small">
+          I worked on this with GC design and front-end duo <a href="https://twitter.com/thesamwillis" target="_blank">Sam Willis</a> and <a href="https://twitter.com/jamesshedden" target="_blank">James Shedden</a>, who deserve a huge amount of respect for making what is a ridiculously complex piece of code work across browsers, devices, and even in Internet Explorer 7!
         </p>
 
         <figure class="project-fig">
           <div class="owl-carousel">
             <img src="img/placeholder.gif" data-src="img/work/payment-pages/payment-page.jpg">
             <img src="img/placeholder.gif" data-src="img/work/payment-pages/payment-page-full.jpg">
+            <img src="img/placeholder.gif" data-src="img/work/payment-pages/payment-page-french.jpg">
           </div>
-          <figcaption class="caption-carousel">Screens from the dashboard</figcaption>
+          <figcaption class="caption-carousel">The payment flow in English and French</figcaption>
         </figure>
 
         <p class="u-text-small">
-          We partnered up on the concept, and I took the lead on the design and branding, whilst Alasdair led the build, using Meteor to get it up and running quickly.
+          The payment flow has a few unique characteristics that made it different to most other projects I've worked on: it has to comply with government regulation, it has to work in different launguages, for different payment schemes (with different local requirements), and it has to work everywhere. It has to work for a German customer, paying an English business from France. It meant every seemingly trivial decision had massive ramifications (want to display a user's bank logo to show we recognise it? There are over 100 widely used banks in Europe, so we better get a vector for each).
         </p>
 
         <div class="video">
@@ -49,17 +54,14 @@
         </div>
 
         <p class="u-text-small">
-        A few days later we pushed it live to <a href="http://subschristmas.com" target="_blank">subschristmas.com</a> and shared it with the featured merchants.
+          We managed to acommodate all of the constraints whilst reducing the number of fields from 11 down to 6, without breaking FCA guidelines. We used a combination of things including: a new responsive UI; helpful tools like address look up and bank logo detection; switching out inputs depending on the locale; and user-agent sniffing to get the right language.
         </p>
 
-        <figure class="project-fig">
-          <img src="img/placeholder.gif" data-src="img/work/payment-pages/payment-page-french.jpg">
-          <figcaption>Why wouldn't you make a christmas tree out of your name?</figcaption>
-        </figure>
+        <p class="u-text-small">
+          All of this means users are now completing the form more often, and much quicker, leading to a boost for both GoCardless, and its merchants.</p>
 
-        </p>
-        <p class="last u-text-small">
-          If you have a web project that you'd like to discuss, you can email me on <a href="mailto:hello@anothertompetty.com">hello@anothertompetty.com</a>. 
+        <p class="u-text-small">
+          If you want to overhaul your web product, or have a project you'd like to discuss, you can email me on <a href="mailto:hello@anothertompetty.com">hello@anothertompetty.com</a>.
         </p>
         
       </div>
