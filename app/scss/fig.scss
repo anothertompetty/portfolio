@@ -9,6 +9,12 @@
   margin-bottom: 50px;
 }
 
+@media screen and (max-width: 480px) {
+  .avatar-fig {
+    margin-bottom: 12px;
+  }
+}
+
 .project-fig img { //unveil styles
   opacity: 0;
   transition: opacity .3s ease-in;

@@ -87,6 +87,13 @@ p.last {
   display: inline-block;
 }
 
+@media screen and (max-width: 480px) {
+  .text--title {
+    font-size: 18px;
+    line-height: 29px;
+  }
+}
+
 // lists
 
 ul,
