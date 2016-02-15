@@ -29,6 +29,12 @@ a.link--plain {
   border: none;
 }
 
+a.link--heavy {
+  @extend a;
+  text-decoration: none;
+  font-family: $bold-font;
+}
+
 // Link iconography
 
 a[rel="external"]::after {
@@ -76,10 +82,8 @@ p.last {
 
 .text--title {
   font-family: $bold-font;
-  font-size: 18px;
-  line-height: 28px;
-  margin-top: 0px;
-  margin-bottom: 10px;
+  font-size: 20px;
+  line-height: 32px;
   display: inline-block;
 }
 

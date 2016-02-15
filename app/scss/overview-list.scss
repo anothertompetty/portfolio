@@ -1,0 +1,56 @@
+.overview-list {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid $color-highlight;
+}
+
+.overview-list:first-of-type {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid $color-highlight;
+}
+
+.overview-list:last-of-type {
+  margin-bottom: 0px;
+}
+
+.overview-list--image {
+  display: inline-block;
+  max-width: 470px;
+  margin-right: 17px;
+  transition: opacity 0.1s ease-in-out;
+}
+
+.overview-list--image:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 755px) {
+  .overview-list--image {
+    display: block;
+    max-width: 100%;
+    margin-right: 0;
+  }
+}
+
+// get rid of weird space below img
+.overview-list--image img { 
+  margin-bottom: -8px;
+}
+
+.overview-list--text {
+  display: inline-block;
+  vertical-align: top;
+  width: 220px;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+@media screen and (max-width: 755px) {
+  .overview-list--text {
+    display: block;
+    width: auto;
+    margin-top: 12px;
+    margin-bottom: 0;
+  }
+}
