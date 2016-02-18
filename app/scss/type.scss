@@ -40,27 +40,27 @@ a.link--heavy {
 a[rel="external"]::after {
   content: " \A0\A0\A0\A0";
   background-image: url(/img/link_after.png);
-  background-size: 10px 10px;
+  background-size: 12px 12px;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center 4px;
   margin-left: 1px;
 }
 
 a[rel="words"]::after {
   content: " \A0\A0\A0\A0";
   background-image: url(/img/words.png);
-  background-size: 10px 10px;
+  background-size: 12px 12px;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center 5px;
   margin-right: 3px;
 }
 
 a[rel="work"]::after {
   content: " \A0\A0\A0\A0";
   background-image: url(/img/work.png);
-  background-size: 10px 10px;
+  background-size: 12px 12px;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center 5px;
   margin-right: 3px;
 }
 
