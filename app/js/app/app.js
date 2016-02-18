@@ -37,11 +37,22 @@ $(document).on('ready', function() {
     });
   });
 
-  // sticky nav
+  // Typed
 
-  $('.overview').stickem({
-    // start: -20,
-    // offset: -20,
+  $(function() {
+    $('.typing').typed({
+      strings: [
+        'products.',
+        'services.',
+        'experiences.',
+        'processes.',
+        'businesses.',
+      ],
+      typeSpeed: 50,
+      backSpeed: 25,
+      backDelay: 500,
+      loop: true,
+    });
   });
     	
 });

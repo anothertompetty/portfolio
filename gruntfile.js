@@ -36,6 +36,7 @@ module.exports = function(grunt) {
           "build/js/app.min.js" : ["app/js/libs/jquery-1.11.2.min.js", 
                                    "app/js/libs/unveil.js",
                                    "app/js/libs/owl.carousel.min.js",
+                                   "app/js/libs/typed.js",
                                    "app/js/app/app.js"]
         }
       }
