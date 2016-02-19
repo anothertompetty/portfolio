@@ -9,3 +9,14 @@
 .section__top {
   padding-bottom: $medium-space;
 }
+
+.section__top__skills {
+  float: right;
+  margin-top: 9px;
+}
+
+@media screen and (max-width: 480px) {
+  .section__top__skills {
+    margin-top: 7px;
+  }
+}
