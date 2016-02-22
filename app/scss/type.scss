@@ -72,6 +72,12 @@ a[rel="work"]::after {
   }
 }
 
+// Link img
+
+a:link {
+  border: none;
+}
+
 // Text styles
 
 h1,
