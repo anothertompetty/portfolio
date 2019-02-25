@@ -40,7 +40,7 @@
 .owl-carousel .owl-item{
 	float: left;
 }
-.owl-controls .owl-page,
+.owl-controls, .owl-page,
 .owl-controls .owl-buttons div{
 	cursor: pointer;
 }
@@ -51,6 +51,10 @@
 	-ms-user-select: none;
 	user-select: none;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.owl-carousel {
+	cursor: move;
 }
 
 /* mouse grab icon */
