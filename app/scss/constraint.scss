@@ -1,0 +1,12 @@
+.constraint {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border: 3px solid $color-highlight;
+  padding: 20px;
+}
+
+@media screen and (max-width: 480px) {
+  .constraint {
+    padding: 15px;
+  }
+}
