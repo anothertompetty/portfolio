@@ -48,8 +48,24 @@
 
 // SIZE
 
+.u-margin-Txl {
+  margin-top: $large-space * 3;
+}
+
+@media screen and (max-width: 480px) {
+  .u-margin-Txl {
+    margin-top: $large-space * 2;
+  }
+}
+
 .u-margin-Tl {
-  margin-top: $large-space;
+  margin-top: $large-space * 1.5;
+}
+
+@media screen and (max-width: 480px) {
+  .u-margin-Tl {
+    margin-top: $large-space;
+  }
 }
 
 .u-margin-Tm {
