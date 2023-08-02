@@ -1,181 +1,190 @@
 <!DOCTYPE html>
+<html lang="en">
   <head>
-    <title>Tom Petty | Product designer</title>
-    <meta name="description" content="Tom Petty is a designer and strategist currently living and working in London.">
-    <meta name="author" content="Tom Petty - @tp">
-    <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
-    <meta name="viewport" content="initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="build/css/app.min.css">
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Tom Petty - A Product Designer based in London"
+    />
+    <title>Tom Petty | Product Designer</title>
+    <style>
+      a {
+        background: linear-gradient(0deg, white, white) no-repeat right bottom /
+          0 var(--bg-h);
+        color: #6a6a70;
+        text-decoration: none;
+        transition: background-size 350ms;
+        --bg-h: 100%;
+      }
+      a:where(:hover, :focus-visible) {
+        background-size: 100% var(--bg-h);
+        background-position-x: left;
+      }
+      .underline {
+        padding-bottom: 4px;
+        --bg-h: 1.5px;
+      }
+      body {
+        color: #6a6a70;
+        font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
+          "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        font-size: 17px;
+        line-height: 24px;
+        text-rendering: optimizeLegibility;
+        transition: background-color 0.5s ease;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      h1,
+      h2 {
+        color: #000;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 24px;
+      }
+      p {
+        margin-bottom: 40px;
+      }
+      .container {
+        max-width: 680px;
+        margin: 0 auto;
+        padding: 40px;
+      }
+      ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        margin-bottom: 40px;
+      }
+      li {
+        margin-bottom: 12px;
+      }
+      .white-text {
+        color: #ffffff;
+      }
+    </style>
+    <script>
+      window.onload = function () {
+        const body = document.body;
+        const links = document.querySelectorAll("a");
+        const allText = document.querySelectorAll("body, body *");
+
+        const colors = {
+          "#9A6AFF": true,
+          "#4285F4": true,
+          "#F1F26E": false,
+          "#000000": true,
+          "#E0652A": true,
+          "#67AD5B": true,
+          "#F9DC4A": false,
+        };
+
+        const colorKeys = Object.keys(colors);
+
+        links.forEach((link, index) => {
+          const colorKey = colorKeys[index];
+
+          link.addEventListener("mouseover", function () {
+            body.style.backgroundColor = colorKey;
+            /* Check if the color is dark */
+            if (colors[colorKey]) {
+              allText.forEach((el) => el.classList.add("white-text"));
+            } else {
+              allText.forEach((el) => el.classList.remove("white-text"));
+            }
+          });
+
+          link.addEventListener("mouseout", function () {
+            body.style.backgroundColor = "";
+            allText.forEach((el) => el.classList.remove("white-text"));
+          });
+        });
+      };
+    </script>
   </head>
   <body>
-
     <div class="container">
-
-      <figure class="avatar-fig">
-        <img src="/img/canvas-edited.jpg" class="avatar">
-      </figure>
-
-      <p class="u-margin-Bl">
-        <span>I'm Tom, and I design </span><span class="typing"></span><br><br>
-        Currently I work with my own clients, helping invent, design, and launch new ventures. Before that I held design leadership roles at fashion and fintech startups, and was as a senior designer at a global agency.<br><br>  
-
-        I’m a co-founder of the community and event series <a href="design-club.html">Design Club</a>, and an investor & advisor to <a href="https://bricklane.com" target="_blank">Bricklane</a>. Sometimes I like to give <a href="#speaking">talks</a> and <a href="#writing">write</a> about process, hiring, and the business of design.<br><br>
-
-        On this page you can read case studies of some of my <a href="#work">work</a>, learn more about my <a href="#experience">experience</a>, or simply <a href="#contact">get in touch</a>. I'm currently available for consultation and select projects.
-      </p>
-
-        <ul id="work" class="overview u-margin-Bl">
-          <li class="overview-list">
-            <figure class="overview-list--image">
-              <a href="gc-dashboard.html"><img src="img/work/gocardless/balances.jpg"></a>
-            </figure>
-            <p class="overview-list--text">
-              <span class="u-text-heavy">GoCardless dashboard</span><br>
-              Building a platform to power everyone from vegetable boxes to Box.com<br><br>
-              <a href="gc-dashboard.html" class="btn">Read the story &rarr;</a>
-            </p>
-          </li>
-          <li class="overview-list">
-            <figure class="overview-list--image">
-              <a href="realist.html"><img src="img/work/realist/cover-image.jpg"></a>
-            </figure>
-            <p class="overview-list--text">
-              <span class="u-text-heavy">Realist app</span><br>
-              An app to help people feel less stressed and happier at work<br><br>
-              <a href="realist.html" class="btn">Read the story &rarr;</a>
-            </p>
-          </li>
-          <li class="overview-list">
-            <figure class="overview-list--image">
-              <a href="gc-dashboard.html"><img src="img/work/design-club/cover-image.jpg"></a>
-            </figure>
-            <p class="overview-list--text">
-              <span class="u-text-heavy">Design Club</span><br>
-              Where the creative community figure out what's next<br><br>
-              <a href="design-club.html" class="btn">Read the story &rarr;</a>
-            </p>
-          </li>
-          <li class="overview-list">
-            <figure class="overview-list--image">
-              <a href="fluidly.html"><img src="img/work/fluidly/cover-image.jpg"></a>
-            </figure>
-            <p class="overview-list--text">
-              <span class="u-text-heavy">Fluidly</span><br>
-              Designing a smart cashflow forecast<br><br>
-              <a href="fluidly.html" class="btn">Read the story &rarr;</a>
-            </p>
-          </li>
-          <li class="overview-list">
-            <figure class="overview-list--image">
-              <a href="gc-payment-flow.html"><img src="img/work/payment-pages/payment-page-hand.jpg"></a>
-            </figure>
-            <p class="overview-list--text">
-              <span class="u-text-heavy">GoCardless payment flow</span><br>
-              Overhauling a form to process millions and work for everyone<br><br>
-              <a href="gc-payment-flow.html" class="btn">Read the story &rarr;</a>
-            </p>
-          </li>
-          <li class="overview-list">
-            <figure class="overview-list--image">
-              <a href="minale-and-london.html"><img src="img/work/minale-and-london/minale-and-london-1.jpg"></a>
-            </figure>
-            <p class="overview-list--text">
-              <span class="u-text-heavy">Minale & London</span><br>
-              Designing a brand that could live without a logo<br><br>
-              <a href="minale-and-london.html" class="btn">Read the story &rarr;</a>
-            </p>
-          </li>
-          <li class="overview-list">
-            <figure class="overview-list--image">
-              <a href="energy.html"><img src="img/work/energy/book2--small.jpg"></a>
-            </figure>
-            <p class="overview-list--text">
-              <span class="u-text-heavy">Energy transformation</span><br>
-              Writing the book on organisational change, before it was cool<br><br>
-              <a href="energy.html" class="btn">Read the story &rarr;</a>
-            </p>
-          </li>
-        </ul>
-
-      <div id="experience" class="section">
-        <h2 class="text--title u-color-heading">Experience</h2>
-        <p class="last">
-          As head of UX & design at <a href="https://gocardless.com" target="_blank" rel="external">GoCardless</a> I built and managed a small, happy team of designers, and led a major redesign of the core product&thinsp;&mdash;&thinsp;a payments network processing over £1 billion every year. Whilst there the company grew from 20 to almost 100 employees, and launched in France, Germany, Spain, and the Netherlands. 'FinTech' also became a thing.<br><br>
-          Before GoCardless I spent 3 years working at global creative consultancy <a href="http://wolffolins.com" target="_blank" rel="external">Wolff Olins</a> where I was a senior designer. I helped create services, launch products and implement new ways of working for some of the biggest, most complex corporations on the planet.<br><br>
-          I am also an investor / advisor to <a href="http://bricklane.com" target="_blank" rel="external">Bricklane</a>, an awesome new company that's going to make it so much easier to save for a house.
+      <header>
+        <h1>Tom Petty</h1>
+        <p>
+          Hi! I am a Product Designer based in London. As Founding Designer at
+          Cord, I lead design across the platform, brand, and marketing — as
+          well as anything else you can think of. I've worked in big tech, been
+          early stage at successful startups, and done the agency thing.
         </p>
-      </div>
-
-      <div id="writing" class="section">
-        <h2 class="text--title u-color-heading">Writing</h2>
+      </header>
+      <nav>
+        <h2>Currently</h2>
         <ul>
           <li>
-            <a rel="words" href="https://medium.com/designing-lyst/career-progression-for-product-designers-user-researchers-at-lyst-49c0c6cb9003" target="_blank">
-            Career progression for product designers and user researchers</a>
-          </li>
-          <li>
-            <a rel="words" href="https://medium.com/gocardless-design/how-we-hire-designers-at-gocardless-21af3accc458" target="_blank">
-            How we hire designers at GoCardless</a>
-          </li>
-          <li>
-            <a rel="words" href="https://medium.com/gocardless-design/building-the-judgement-muscle-4f2204f8815a#.39hi48szb" target="_blank">
-            Building the judgement muscle</a>
-          </li>
-          <li>
-            <a rel="words" href="https://medium.com/@tp/profits-eat-culture-for-breakfast-c70b5864e425" target="_blank">
-            Profits eat culture for breakfast</a>
-          </li>
-          <li>
-            <a rel="words" href="http://www.wolffolins.com/views/35265443757/the-dark-ages" target="_blank">
-            The dark ages</a>
-          </li>
-          <li>
-            <a rel="words" href="http://www.wolffolins.com/views/54584435489/chin-up" target="_blank">
-            Chin up</a>
+            <a
+              href="https://cord.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="underline"
+              >Founding Designer, Cord</a
+            >
           </li>
         </ul>
-      </div>
-
-      <div id="speaking" class="section">  
-        <h2 class="text--title u-color-heading">Speaking</h2>
+        <h2>Previously</h2>
         <ul>
           <li>
-            <a href="http://383project.com/events/">
-            Byte</a>, London 27/01/16
+            <a
+              href="https://www.youtube.com/watch?v=zt_cNQse05s"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="underline"
+              >Interaction Designer, Google</a
+            >
           </li>
           <li>
-            <a href="http://canvasconf.co.uk">
-            Canvas Conference</a>, Birmingham 23/10/15
+            <a
+              href="https://gocardless.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="underline"
+              >Head of Design, GoCardless</a
+            >
           </li>
           <li>
-            <a href="http://www.codefirstgirls.org.uk">
-            Code First: Girls (panel)</a>, London 07/07/15
+            <a
+              href="https://lyst.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="underline"
+              >VP Design, Lyst</a
+            >
           </li>
           <li>
-            <a href="http://designandbanter.com">
-            Design and Banter</a>, London 21/02/15
+            <a
+              href="https://designclub.io"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="underline"
+              >Co-Founder & Host, Design Club</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://bricklane.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="underline"
+              >Angel Investor, Bricklane</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://wolffolins.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="underline"
+              >Senior Designer, Wolff Olins</a
+            >
           </li>
         </ul>
-      </div>
-      
-      <p id="contact">
-        I like grabbing a coffee, and I'd love to hear from you. Email me any time on <a href="mailto:hello@anothertompetty.com">hello@anothertompetty.com</a>, or find me on twitter <a href="http://www.twitter.com/tp">@tp</a>, on <a href="https://dribbble.com/anothertompetty">Dribbble</a>, or <a href="https://www.linkedin.com/in/tompetty">LinkedIn</a>. 
-      </p>
-
+      </nav>
     </div>
-
-    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-    <script src="build/js/app.min.js"></script>
-    <script src="//localhost:35729/livereload.js"></script>
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-74265726-1', 'auto');
-      ga('send', 'pageview');
-    </script>
   </body>
 </html>
